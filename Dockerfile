@@ -5,7 +5,7 @@ FROM openjdk:21-jdk-slim
 WORKDIR /app
 
 # Copy the JAR file from the target folder into the container
-COPY target/demo-0.0.1-SNAPSHOT.jar app.jar
+COPY target/Adarsh-Nandal-main-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose port 8083 (or any port your app uses)
 EXPOSE 8083
